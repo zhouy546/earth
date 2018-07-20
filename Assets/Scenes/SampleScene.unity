@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 5a2afb8843abacd4787f54919fab7bcf, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,8 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.0000148203735, g: 0.0000262824, b: 0.0000148203735,
+    a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -139,7 +140,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1.5
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -269,7 +270,7 @@ Camera:
   m_GameObject: {fileID: 282840810}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -5306,15 +5307,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4954206671516954, guid: 387d766e97ffdab4187edd9d4eb0d666, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -12.2
+      value: 10.82
       objectReference: {fileID: 0}
     - target: {fileID: 4954206671516954, guid: 387d766e97ffdab4187edd9d4eb0d666, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 20.1
+      value: -18.46
       objectReference: {fileID: 0}
     - target: {fileID: 4954206671516954, guid: 387d766e97ffdab4187edd9d4eb0d666, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -4.7
+      value: -8.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954206671516954, guid: 387d766e97ffdab4187edd9d4eb0d666, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954206671516954, guid: 387d766e97ffdab4187edd9d4eb0d666, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954206671516954, guid: 387d766e97ffdab4187edd9d4eb0d666, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114142411947498378, guid: 387d766e97ffdab4187edd9d4eb0d666, type: 2}
@@ -5361,7 +5374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7bbde9b21776f64dad73a437f64d80b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 10
+  time: 300
   distance: 12.3
   sphereTransform: {fileID: 2037850578}
   sphereRotateAngle: {x: 0, y: 0, z: 0}
