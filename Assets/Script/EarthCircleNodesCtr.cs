@@ -31,9 +31,12 @@ public class EarthCircleNodesCtr : MonoBehaviour {
         {
             item.Initializtion();
         }
+
         RotateSelf();
     }
+
     LTDescr RotateLTDescr;
+
     public void RotateSelf() {
         RotateLTDescr= LeanTween.rotateAround(this.gameObject, Vector3.up, -360f, 50f).setOnComplete(delegate ()
         {
@@ -49,6 +52,6 @@ public class EarthCircleNodesCtr : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 }
